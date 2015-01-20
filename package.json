@@ -1,0 +1,27 @@
+{
+  "name": "requestid",
+  "version": "0.1.0",
+  "description": "top speed to generate a unique ID that's never repeat",
+  "keywords": "requestid, request, uuid, rid",
+  "homepage": "https://github.com/ericdum/node-request-id",
+  "bugs": "https://github.com/ericdum/node-request-id/issues",
+  "author": "木酱 <lichen.dlc@alibaba-inc.com> (http://mujiang.info/)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ericdum/node-request-id"
+  },
+  "dependencies": {
+    "address": "*"
+  },
+  "devDependencies": {
+    "istanbul": "*",
+    "mocha": "*",
+    "jscover": "*",
+    "expect.js": "*",
+    "benchmark": "*"
+  },
+  "scripts": {
+    "test": "COV_TEST=true make test-lcov",
+    "republish": "make release"
+  }
+}
