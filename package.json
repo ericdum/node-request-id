@@ -14,6 +14,7 @@
     "address": "*"
   },
   "devDependencies": {
+    "coveralls": "^2.11.2",
     "istanbul": "*",
     "mocha": "*",
     "jscover": "*",
